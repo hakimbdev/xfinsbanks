@@ -248,7 +248,7 @@ const Home = () => {
           </p>
           <Link
             to="/contact"
-            className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-3 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
+            className="bg-yellow-500 hover:bg-yellow-600 text-white-900 px-8 py-3 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
           >
             Contact Us Today <ArrowRight className="ml-2 h-5 w-5" />
           </Link>

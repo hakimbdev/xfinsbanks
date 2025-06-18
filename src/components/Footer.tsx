@@ -1,5 +1,6 @@
 import React from 'react';
 import { TrendingUp, Mail, Phone, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -41,17 +42,17 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <div className="space-y-2">
-              <a href="#" className="block text-gray-300 hover:text-blue-400 transition-colors">Privacy Policy</a>
-              <a href="#" className="block text-gray-300 hover:text-blue-400 transition-colors">Terms of Service</a>
-              <a href="#" className="block text-gray-300 hover:text-blue-400 transition-colors">FAQ</a>
-              <a href="#" className="block text-gray-300 hover:text-blue-400 transition-colors">Support</a>
+              <Link to="/privacy-policy" className="block text-gray-300 hover:text-blue-400 transition-colors">Privacy Policy</Link>
+              <Link to="/terms-of-service" className="block text-gray-300 hover:text-blue-400 transition-colors">Terms of Service</Link>
+              <Link to="/faq" className="block text-gray-300 hover:text-blue-400 transition-colors">FAQ</Link>
+              <Link to="/support" className="block text-gray-300 hover:text-blue-400 transition-colors">Support</Link>
             </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 xFins Banks Forex Academy. All rights reserved.
+            © 2024 xFins Banks Forex Academy. All rights reserved.
           </p>
         </div>
       </div>
