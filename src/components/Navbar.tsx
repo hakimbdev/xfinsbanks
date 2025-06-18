@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <TrendingUp className="h-8 w-8 text-blue-700" />
-              <span className="text-xl font-bold text-gray-900">xFins Banks</span>
+              <span className="text-xl font-bold text-gray-900">xFins Banks Forex Academy</span>
             </Link>
           </div>
           

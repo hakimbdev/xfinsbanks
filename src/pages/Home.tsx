@@ -58,9 +58,9 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/mentorship"
-                className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 px-8 py-3 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center"
+                className="bg-yellow-500 hover:bg-yellow-600 text-white-900 px-8 py-3 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center"
               >
-                Start Learning Today <ArrowRight className="ml-2 h-5 w-5" />
+                Register Today <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 to="/signals"
@@ -142,7 +142,7 @@ const Home = () => {
                 to="/mentorship"
                 className="inline-flex items-center bg-white text-blue-700 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
               >
-                Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                Join the Mentorship <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </div>
 
